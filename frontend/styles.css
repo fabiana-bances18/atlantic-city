@@ -1,0 +1,96 @@
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+    color: #263238;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    background-color: #172b4d;
+    color: white;
+    padding: 25px 0;
+}
+
+.encabezado h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.encabezado p {
+    margin: 0;
+    color: #dce3ed;
+}
+
+/* FORMULARIO DE LOGIN */
+.tarjeta-login {
+    max-width: 430px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* TARJETAS */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* BOTONES */
+.btn-primary {
+    background-color: #172b4d;
+    border-color: #172b4d;
+}
+
+.btn-primary:hover {
+    background-color: #254574;
+    border-color: #254574;
+}
+
+/* TABLA */
+.table {
+    font-size: 14px;
+}
+
+.table thead {
+    background-color: #172b4d;
+    color: white;
+}
+
+/* MENSAJES */
+.mensaje {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mensaje.error {
+    color: #dc3545;
+}
+
+.mensaje.exito {
+    color: #198754;
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+    .encabezado h1 {
+        font-size: 23px;
+    }
+
+    .card-body {
+        padding: 18px;
+    }
+}

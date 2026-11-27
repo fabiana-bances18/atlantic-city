@@ -3,7 +3,6 @@
 -- Base de datos relacional (MySQL 8) normalizada hasta 3FN
 -- =====================================================================
 
-DROP DATABASE IF EXISTS atlantic_city;
 CREATE DATABASE atlantic_city
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
